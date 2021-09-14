@@ -1,0 +1,91 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
+
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Верхняя линия */
+.logo {
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.webstudio,
+.studio {
+  color: #2196f3;
+}
+.site-nav {
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+}
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.info-title:hover,
+.info-title:focus {
+  color: #2196f3;
+}
+
+/* Герои */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+
+  /* position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 733px;
+  top: 362px; */
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button:hover {
+  color: #2196f3;
+}

@@ -3,49 +3,51 @@
 <head>  
 <meta charset="UTF-8">
 <meta name="viewport"  content="width=device-width,initial-scale=1.0">
-<title>Document</title>
+<title>Студия</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+  rel="stylesheet"><link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <!-- Верхняя линия -->
   <header>
     <nav>
-      <a href="index.html" lang="en"> WebStudio</a>
-      <ul>
+      <a class="logo" href="index.html" lang="en"> <span class="webstudio"> Web</span>Studio </a>
+      <ul class="site-nav list" >
         <li>
-          <a href="index.html">Студия</a>
+          <a class="nav studio" href="index.html">Студия</a>
         </li>
         <li>
-          <a href="./portfolio.html">Портфолио</a>
+          <a class="nav" href="./portfolio.html">Портфолио</a>
         </li>
         <li>
-          <a href="">Контакты</a>
+          <a class="nav" href="">Контакты</a>
         </li>
       </ul>
     </nav>
 
-      <ul>
+      <ul class="info list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="info-title" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="info-title" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     
   </header>
   <main>
-    <!-- Шапка -->
-    <section>
-      <h1>
+    <!-- Герои -->
+    <section class="hero">
+      <h1 class="hero-title">
         Эффективные решения для вашего бизнеса
       </h1>
-      <button type="button">Заказать услугу</button>
+      <button class="button" type="button">Заказать услугу</button>
     </section>
     <!-- Особенности -->
     <section>
       <h2 hidden>Особенности</h2>
-      <ul>
+      <ul class="list">
         <li>
           <h3>Внимание к деталям</h3>
           <p>Идейные соображения, а также<br> начало повседневной работы по<br> формированию позиции.</p>
@@ -69,7 +71,7 @@
       <h2>
         Чем мы занимаемся
       </h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./images/img1.jpg" alt="Схема" width="370" height="294">
         </li>
@@ -86,7 +88,7 @@
       <h2>
         Наша команда
       </h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./images/igor.jpg" alt="член команды" width="270" height="260">
           <h3>
@@ -130,7 +132,7 @@
   <footer>
     <a href=".index.html" lang="en">WebStudio</a>
     <address>
-      <ul>  
+      <ul class="list">  
         <li>
           <a href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a> 
         </li>
