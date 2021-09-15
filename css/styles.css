@@ -6,6 +6,10 @@
   --caption-color: #212121;
 }
 
+.li {
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
 }
@@ -158,4 +162,37 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------------------------Портфоли ------------------ */
+.section-button {
+  /* font-family: inherit; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--caption-color);
+}
+.btn {
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--accent-color);
+}
+.all {
+  color: var(--primary-white-color);
+  background-color: #2196f3;
+}
+.project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--caption-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
