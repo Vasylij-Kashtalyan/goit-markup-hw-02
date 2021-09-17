@@ -24,7 +24,7 @@ body {
 
 /* Верхняя линия */
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 26px;
@@ -67,8 +67,7 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
-  font-family: Roboto;
-  font-style: 400;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -77,33 +76,37 @@ body {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+.button:hover {
+  background: var(--hover-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .button {
   font-family: inherit;
   font-style: 400;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
-.button:hover {
-  color: var(--accent-color);
-}
+
 /* Особенности */
-.caption {
+.feature-title {
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--caption-color);
+  color: var(--link-text-color);
 }
-.captin-title {
+.feature-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -111,24 +114,35 @@ body {
   color: var(--primary-text-color);
 }
 /*  Чем мы занимаемся  */
-.headline {
+.works {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--caption-color);
+  color: var(--link-text-color);
 }
 /* Наша команда */
-.team-name {
+.team {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-text-color);
+}
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--caption-color);
+  color: var(--link-text-color);
 }
-.team-work {
+.team-text {
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
