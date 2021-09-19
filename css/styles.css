@@ -119,6 +119,9 @@ body {
   color: var(--link-text-color);
 }
 /* Наша команда */
+.sectio-team {
+  background-color: var(--filters-background);
+}
 .team {
   font-weight: 700;
   font-size: 36px;
